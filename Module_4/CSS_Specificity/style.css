@@ -1,0 +1,15 @@
+h1 {
+    color: orange;
+  }
+  
+  .title {
+    color: blue;
+  }
+  
+  .new-title {
+    color: purple;
+  }
+  
+  #title {
+    color: red;
+  }
