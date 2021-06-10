@@ -20,5 +20,5 @@
   blockquote {
     font-size: 25px;
     /* using custom @font-face */
-    font-family: 'zilla_slab_highlightbold'
+    font-family: 'zilla_slab_highlightbold';
   }
