@@ -1,0 +1,30 @@
+/* Do not change this; this styles every tag that is a child of the body element. */
+body > * {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 10px;
+  }
+  
+  /* Start coding below this line. */
+  
+  section {
+    background-color: blue;
+    color: yellow;
+    font-family: roboto;
+  }
+  
+  .elegant {
+    background-color: pink;
+    color: red;
+    font-family: dancing script;
+  }
+  
+  #odd-duck {
+    background-color: yellow;
+    color: black;
+    font-family: comic neue;
+  }
