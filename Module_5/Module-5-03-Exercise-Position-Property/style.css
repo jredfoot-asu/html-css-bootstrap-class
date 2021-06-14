@@ -1,0 +1,24 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #E8DDCB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: #CDB380;
+  margin: 20px;
+}
+
+.box {
+  width: 125px;
+  height: 125px;
+  background:#036564;
+  color:#E8DDCB;
+  border: 2px solid #033649;
+  padding: 20px;
+}

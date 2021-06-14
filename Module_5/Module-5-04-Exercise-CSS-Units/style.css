@@ -1,0 +1,22 @@
+/* Colors
+#355C7D
+#6C5B7B
+#C06C84
+#355C7D
+#F67280
+#F8B195
+*/
+body {
+  color: #6C5B7B;
+  background: #6C5B7B;
+  font-family: sans-serif;
+}
+section {
+  border: 1px solid #355C7D;
+  background: #355C7D;
+  width: 500px;
+}
+article {
+  border: 1px solid #F67280;
+  background: #F8B195;
+}
