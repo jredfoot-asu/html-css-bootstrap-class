@@ -10,5 +10,9 @@ h1 {
 	border: dashed black 5px; 
 	font-size: 3rem;
 	margin-top: 0;
-  text-align: center;
+	  text-align: center;
+	  margin: auto;
+	  /* position: absolute;
+	  left: 50%;
+	  transform: translateX(-50%); */
 }

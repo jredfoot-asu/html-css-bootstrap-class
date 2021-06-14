@@ -9,7 +9,7 @@ body {
 
 .box-set {
   position: relative;
-  height: 400px;
+  height: 1400px;
   background: #CDB380;
   margin: 20px;
 }
@@ -21,4 +21,52 @@ body {
   color:#E8DDCB;
   border: 2px solid #033649;
   padding: 20px;
+  /* position: absolute; */
+}
+
+/* 
+position relative examples.
+.box-1 {
+
+}
+
+.box-2 {
+  position: relative;
+  right: 50px;
+}
+
+.box-3 {
+  position: relative;
+  top: 60px;
+  z-index: 100;
+}
+
+.box-4 {
+  position: relative;
+  z-index: 200;
+} */
+
+
+/* absoulte positioning examples. */
+.box-1 {
+  top: 0;
+}
+
+.box-2 {
+  /* right: 0; */
+  top: 0;
+  
+  /* fixed position example 
+  position: fixed;
+  */
+  position: sticky;
+}
+
+.box-3 {
+  bottom: 0;
+}
+
+.box-4 {
+  bottom: 0;
+  right: 0;
 }

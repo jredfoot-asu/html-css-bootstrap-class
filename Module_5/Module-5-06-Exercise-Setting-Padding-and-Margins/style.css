@@ -9,10 +9,13 @@ div {
 
 #purple {
   background-color: #A086F0;
+  padding: 10px 30px 25px 15px;
+  margin-bottom: 20px;
 }
 
 #green {
   background-color: #A8E854;
+  margin-top: 30px;
 }
 
 
