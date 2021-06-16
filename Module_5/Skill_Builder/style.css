@@ -1,0 +1,81 @@
+
+body {
+  background-color: yellow;
+  margin: 0;
+}
+
+header {
+  background-color: red;
+  height: 100px;
+}
+
+img {
+  background-color: pink;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+ 
+.nav ul {
+  background-color: purple;
+  list-style: none;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nav li {
+  background-color: blue;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: orange;
+}
+
+section {
+  background-color: chocolate;
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+#quote-offer-container {
+  background-color: blue;
+  margin-right: 40px;
+}
+
+#quote-form-container {
+  background-color: orange;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  background-color: salmon;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width:  80px;
+}
