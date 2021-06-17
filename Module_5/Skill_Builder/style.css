@@ -2,6 +2,9 @@
 body {
   background-color: yellow;
   margin: 0;
+  background-image: url("https://kinggreen.com/wp-content/uploads/2020/01/lawn-care-davidson-1024x682.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
