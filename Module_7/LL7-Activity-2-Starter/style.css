@@ -1,0 +1,47 @@
+/* Starting Styles */
+div {
+	max-width: 960px;
+}
+
+.col {
+	display: inline-block;
+	height: auto;
+	width: 30%;
+	margin: 1%;
+}
+figure {
+  margin:0;
+  overflow: hidden;
+}
+.col figure img {
+  width: 100%;
+  height: auto;
+  transition: .3s
+}
+.col span {
+  font-family: sans-serif;
+}
+/* End Starting Styles */
+
+/* Zoom Hover Effect - .hover01 */
+
+.hover01:hover {
+  transform: scale(1.5);
+}
+
+
+/* Slide Hover Effect - .hover02 */
+
+.hover02:hover {
+  transform: translateX(-15%);
+}
+
+
+/* Opacity Hover Effect - .hover03 */
+
+.hover03:hover {
+  opacity: .5;
+}
+
+
+      
