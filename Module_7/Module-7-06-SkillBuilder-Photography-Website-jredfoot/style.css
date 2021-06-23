@@ -52,6 +52,10 @@ h1 {
   text-transform: uppercase;
 }
 
+h1:hover {
+  transform: rotate(360deg);
+}
+
 hr {
     margin: 0 auto 34px auto;
     border: 0;
@@ -78,11 +82,19 @@ hr {
 .photo {
   width: 100%;
   height: 100%;
-  transition-duration: .3s;
+  /* slowed the transition from blurred to not blurred and back as well as slowed the rotation of the picture. */
+  transition: transform 3s, filter 3s ease-in-out;
+  /* added blur to the photos */
+  /* Added a grayscale to the photo pre-hover. */
+  filter: blur(4px) grayscale(100%);
 }
 
 .photo-container:hover .photo {
-  transform: scale(1.2);
+  /* added a rotate feature that spins the photo 360deg upon hover. */
+  transform: scale(1.2) rotate(360deg);
+  /* Upon hovering, the blur of the photo goes away. */
+  /* Also added a remove grayscale feature upon hover */
+  filter: blur(0) grayscale(0);
 }
 
 .photo-container:hover::before {
