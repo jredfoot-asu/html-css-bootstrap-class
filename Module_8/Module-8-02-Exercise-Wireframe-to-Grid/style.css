@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  color: #AEE239;
+  background: #8FBE00;
+}
+div {
+  min-height:200px;
+  color: #F9F2E7;
+  background: #40C0CB;
+  border: 2px solid #00A8C6;
+  border-radius: 10px;
+}
