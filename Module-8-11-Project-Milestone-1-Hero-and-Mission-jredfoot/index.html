@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    
+
     <!-- Remember to replace this with your title! -->
-    <title>[Your Title Here]</title>
-    
-    <!-- Link for boostrap from: 
+    <title>Jason Redfoot's Portfolio</title>
+
+    <!-- Link for boostrap from:
     https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Bootstrap Icons -->
@@ -19,48 +22,74 @@
 
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
 
-  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="navbar-spy">
+    <div class="container-fluid">
+      <a class="navbar-brand"><i class="#"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#mission-section">Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-section">Skills</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#inspiration-section">Inspiration</a>
+          </li>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
-  -->
-  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
-  
+
   <!-- Hero section -->
-  <section id="hero-section">
+  <section class="container-fluid" id="hero-section">
     <!-- Start writing your hero section here. -->
-    <div id="profile-img"></div>
-    <h2>My Name</h2>
+    <div id="profile-img">
+      <img src="./img/jason.jpg" alt="Jason Redfoot">
+    </div>
+    <h2 class="headings text-center fs-1 fw-bold lh-base">Jason Redfoot</h2>
   </section>
 
   <!-- Mission/Meet-me section -->
-  <section id="mission-section">
+  <section class="container-fluid" id="mission-section">
     <!-- Start writing your Mission/Meet-me section here. -->
-    <h3>Mission/Meet-me Section</h3>
+    <h3 class="headings text-center fs-2 fw-bold lh-base">Mission/Meet-me Section</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda nisi animi. Accusantium temporibus commodi ratione dolorum necessitatibus, laborum omnis consequuntur officiis exercitationem eligendi consequatur aut nobis voluptatum iure amet.</p>
   </section>
 
   <!-- Skills section -->
-  <section id="skills-section">
+  <section class="container-fluid" id="skills-section">
     <!-- Start writing your skills section here. -->
-    <h3>Skills Section</h3>
+    <h3 class="text-center fs-2 fw-bold lh-base">Skills Section</h3>
     <div class="skill-container">
-      <img src="img/html5.png">
+      <img src="img/html5.png" alt="Html5 icon">
       <p>Some skill text.</p>
     </div>
   </section>
 
   <!-- Inspiration Section -->
-  <section id="inspiration-section">
-    <h3>Inspiration Section</h3>
+  <section class="container-fluid" id="inspiration-section">
+    <h3 class="headings text-center fs-2 fw-bold lh-base">Inspiration Section</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda nisi animi. Accusantium temporibus commodi ratione dolorum necessitatibus, laborum omnis consequuntur officiis exercitationem eligendi consequatur aut nobis voluptatum iure amet.</p>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact-section">
-    <h3>Contact Section</h3>
-    Build out your social contacts 
+  <section class="container-fluid" id="contact-section">
+    <h3 class="headings text-center fs-2 fw-bold lh-base">Contact Section</h3>
+    Build out your social contacts
 
     <!-- See https://icons.getbootstrap.com/ -->
     <i class="bi bi-bricks"></i>
