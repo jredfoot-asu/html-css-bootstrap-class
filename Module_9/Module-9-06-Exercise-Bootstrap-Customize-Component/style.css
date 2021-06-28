@@ -1,0 +1,41 @@
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  background: linear-gradient(#f70, #f30);
+  margin-right: 0;
+  margin-left: 0;
+  padding: .75rem;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding: 1rem 1.75rem;
+  color: white;
+  border-right: 1px solid #222;
+}
+
+.navbar-expand-sm #navbar-nav2.navbar-nav .nav-link {
+  border: none;
+  padding: .75rem .50rem;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link.text-orange {
+  color: #f50;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #f30;
+}
+
+.avatar {
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}

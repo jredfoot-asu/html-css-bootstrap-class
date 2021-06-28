@@ -1,0 +1,30 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+#hero-section {
+  /* This should be an image. */
+  background-color: aqua;
+
+  /* Change this values to work for you. */
+  padding: clamp(100px, 20vh, 200px) 0;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: clamp(10px, 20vh, 100px) auto;
+
+  /* This should be an image */
+  background-color: blue;
+
+  /* Change this values to work for you. */
+  height: clamp(100px, 20vh, 200px);
+
+  /* Change this values to work for you. */
+  width: clamp(100px, 20vh, 200px);
+} 
+
+#hero-section h2 {
+  /* How to center text? */
+
+  /* Add responsive vertical margins via clamp? */
+  
+}
