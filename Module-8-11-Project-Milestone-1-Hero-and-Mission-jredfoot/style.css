@@ -27,9 +27,10 @@
 }
 
 #skills-section img {
-  height: 50px;
-  width: 50px;
-  display: block;
+  height: 115px;
+  width: 115px;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
+  padding: none;
 }
