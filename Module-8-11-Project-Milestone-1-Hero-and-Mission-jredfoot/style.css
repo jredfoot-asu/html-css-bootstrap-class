@@ -6,7 +6,9 @@
   background-image: url(https://fiverr-res.cloudinary.com/image/upload/w_880/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 75vh;
   padding: clamp(100px, 20vh, 200px) 0;
 }
 
@@ -17,6 +19,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid grey;
 }
 
 #hero-section h2 {
@@ -26,6 +29,27 @@
 
 }
 
+.bg-dark {
+  background-color: #ccb9b1;
+}
+
+#mission-section {
+  background-color: #616063;
+}
+
+#skills-section {
+  background-color: #ccb9b1;
+}
+
+#inspiration-section {
+  background-color: #616063;
+}
+
+#contact-section {
+  background-color: #ccb9b1;
+}
+
+
 #skills-section img {
   height: 115px;
   width: 115px;
@@ -33,4 +57,16 @@
   margin-left: auto;
   margin-right: auto;
   padding: none;
+}
+
+.carousel {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+#footer-section {
+  padding-top: .25%;
+  height: 35px;
+  background-color: #616063;
 }

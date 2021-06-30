@@ -26,12 +26,12 @@
 
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="navbar-spy">
     <div class="container-fluid">
-      <a class="navbar-brand"><i class="#"></i></a>
+      <a class="navbar-brand"><i class="#"></i>Jason Redfoot's Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar1">
-        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
           <li class="nav-item">
             <a class="nav-link active" href="#hero-section">Home</a>
           </li>
@@ -64,14 +64,14 @@
   </section>
 
   <!-- Mission/Meet-me section -->
-  <section class="container-fluid" id="mission-section">
+  <section class="container-fluid text-white d-grid gap-0" id="mission-section">
     <!-- Start writing your Mission/Meet-me section here. -->
     <h3 class="headings text-center fs-2 fw-bold lh-base">Mission/Meet-me Section</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda nisi animi. Accusantium temporibus commodi ratione dolorum necessitatibus, laborum omnis consequuntur officiis exercitationem eligendi consequatur aut nobis voluptatum iure amet.</p>
   </section>
 
   <!-- Skills section -->
-  <section class="container-fluid" id="skills-section">
+  <section class="container-fluid d-grid gap-0" id="skills-section">
     <!-- Start writing your skills section here. -->
     <h3 class="text-center fs-2 fw-bold lh-base">Skills Section</h3>
     <div class="skill-container">
@@ -86,13 +86,40 @@
   </section>
 
   <!-- Inspiration Section -->
-  <section class="container-fluid" id="inspiration-section">
+  <section class="container-fluid text-white" id="inspiration-section">
     <h3 class="headings text-center fs-2 fw-bold lh-base">Inspiration Section</h3>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/2220/1665?random=1" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/2220/1665?random=2" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/2220/1665?random=3" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda nisi animi. Accusantium temporibus commodi ratione dolorum necessitatibus, laborum omnis consequuntur officiis exercitationem eligendi consequatur aut nobis voluptatum iure amet.</p>
   </section>
 
   <!-- Contact Section -->
-  <section class="container-fluid" id="contact-section">
+  <section class="container-fluid d-grid gap-0" id="contact-section">
     <h3 class="headings text-center fs-2 fw-bold lh-base">Contact Section</h3>
     Build out your social contacts
 
@@ -101,6 +128,11 @@
   </section>
 
   <!-- Footer section -->
+  <section class="container-fluid" id="footer-section">
+    <div class="footer text-center fs-6 fw-lighter text-white">
+      <p>&copy Jason Redfoot 2021</p>
+    </div>
+  </section>
 
   <!-- Bootstrap Javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
