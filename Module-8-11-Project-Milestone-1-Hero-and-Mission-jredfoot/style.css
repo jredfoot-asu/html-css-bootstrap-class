@@ -22,13 +22,6 @@
   border: 2px solid grey;
 }
 
-#hero-section h2 {
-  /* How to center text? */
-
-  /* Add responsive vertical margins via clamp? */
-
-}
-
 .bg-dark {
   background-color: #ccb9b1;
 }
