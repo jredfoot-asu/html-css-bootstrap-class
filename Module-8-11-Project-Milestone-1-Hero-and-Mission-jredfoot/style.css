@@ -65,8 +65,21 @@
   margin: auto;
 }
 
+.carousel-margin {
+  margin: auto;
+}
+
 #footer-section {
   padding-top: .25%;
   height: 35px;
   background-color: #616063;
+}
+
+.figure {
+text-align: center;
+}
+
+.figure-caption {
+  text-align: center;
+  margin-top: 10px;
 }
